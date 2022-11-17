@@ -22,7 +22,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-//vta
+//vta 2002
 Route::get('/users',[UserController::class,'index']) -> name('users.index');
 Route::get('/users/detail/{id}',[UserController::class,'detail']) -> name('users.detail');
 // php artisan serve
